@@ -1,0 +1,16 @@
+*.DS_Store
+**/.DS_Store
+EXAMPLE*
+__pycache__
+__pycache__/**
+**/save_*
+**/~0*
+wget-log
+.vscode
+.vscode/**
+build
+build/**
+dist
+dist/**
+yamale
+yamale/**

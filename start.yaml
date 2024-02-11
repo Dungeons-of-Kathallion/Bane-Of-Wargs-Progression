@@ -1,0 +1,61 @@
+cheat: 0
+health: 40
+armor protection: .95
+current mount: ' '
+agility: .8
+gold: 15
+held item: Dagger
+held chestplate: Wolf Fur
+held boots: Leather Boots
+held leggings: Old Pants
+held shield: " "
+inventory slots: 9
+inventory slots remaining: 4
+elapsed time seconds: 1
+elapsed time game days: .25
+attributes:
+- None
+active missions: []
+done missions:
+- None
+offered missions:
+- None
+orders:
+  None: none
+mounts:
+  None: none
+start dialog:
+  dialog: start dialog
+  heard start dialog: False
+heard dialogs:
+- None
+used keys:
+- None
+visited zones:
+- Stall Fields
+met npcs names:
+- Old Man
+visited points:
+- 0
+enemies list:
+- None
+inventory:
+- Dagger
+- Healing Potion
+- Wolf Fur
+- Leather Boots
+- Old Pants
+- Stretched Bag
+max health: 40
+x: 0
+xp: 0
+y: 0
+map zone: "Kathallion Plains"
+taken items:
+- None
+defeated enemies:
+- None
+met npcs:
+- None
+missions:
+  None: none

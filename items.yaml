@@ -1,0 +1,585 @@
+# Weapons
+Sword: &generic_sword
+  display name: "Sword"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 5
+  defend: 6
+  agility: .1
+  gold: 7.65
+  critical hit chance: .05
+  description: "A generic sword."
+Sword (1):
+  << : *generic_sword
+  upgrade tier: 1
+  damage: 6.4
+  defend: 7
+  agility: .12
+  critical hit chance: .065
+  for this upgrade:
+  - Raw Wood
+  - Raw Iron
+Sword (2):
+  << : *generic_sword
+  upgrade tier: 2
+  damage: 7.2
+  defend: 7.6
+  agility: .125
+  critical hit chance: .071
+  for this upgrade:
+  - Raw Wood
+  - Raw Bronze
+  - Raw Iron
+Sword (3):
+  << : *generic_sword
+  upgrade tier: 3
+  damage: 7.4
+  defend: 7.7
+  agility: .129
+  critical hit chance: .072
+  for this upgrade:
+  - Raw Silver
+  - Raw Copper
+  - Raw Copper
+Broadsword: &broadsword
+  display name: "Broadsword"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 7
+  defend: 6
+  agility: .04
+  gold: 12.98
+  critical hit chance: .09
+  description: "The Broadsword is a large sword and powerful sword that not anyone can use well."
+Broadsword (1):
+  << : *broadsword
+  upgrade tier: 1
+  damage: 8
+  defend: 7
+  agility: .045
+  critical hit chance: .095
+  for this upgrade:
+  - Raw Iron
+  - Raw Iron
+  - Raw Iron
+  - Raw Bronze
+Broadsword (2):
+  << : *broadsword
+  upgrade tier: 2
+  damage: 9.3
+  defend: 7.6
+  agility: .48
+  critical hit chance: .1
+  for this upgrade:
+  - Raw Iron
+  - Raw Iron
+  - Raw Copper
+  - Raw Silver
+Long Sword: &long_sword
+  display name: "Long Sword"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 6
+  defend: 8
+  agility: .08
+  gold: 13.78
+  critical hit chance: .05
+  description: "A very long sword that is very practical to defend yourself from monsters."
+Long Sword (1):
+  << : *long_sword
+  upgrade tier: 1
+  damage: 6.7
+  defend: 8
+  agility: .085
+  critical hit chance: .0625
+  for this upgrade:
+  - Raw Wood
+  - Raw Wood
+  - Raw Bronze
+  - Flexible Steel
+Long Sword (2):
+  << : *long_sword
+  upgrade tier: 2
+  damage: 7
+  defend: 8
+  agility: .094
+  critical hit chance: .0645
+  for this upgrade:
+  - Raw Bronze
+  - Raw Bronze
+  - Raw Bronze
+  - Flexible Steel
+  - Flexible Steel
+Rapier: &Rapier
+  display name: "Rapier"
+  upgrade tier: 0
+  type: "Weapon"
+  gold: 16.2
+  damage: 6
+  defend: 7
+  agility: .19
+  critical hit chance: .03
+  description: "A long, thin sword with an elaborate hilt and a flexible blade."
+Rapier (1):
+  << : *Rapier
+  upgrade tier: 1
+  damage: 6.6
+  defend: 7.4
+  agility: .207
+  critical hit chance: .034
+  for this upgrade:
+  - Flexible Steel
+  - Raw Bronze
+  - Raw Silver
+Bow: &generic_bow
+  display name: "Bow"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 4
+  defend: 9
+  agility: .15
+  gold: 3.2
+  critical hit chance: .06
+  description: "A generic bow."
+Bow (1):
+  << : *generic_bow
+  upgrade tier: 1
+  damage: 5.2
+  defend: 8.7
+  agility: .135
+  critical hit chance: .075
+  for this upgrade:
+  - Raw Wood
+  - Raw Wood
+  - Strong String
+Bow (2):
+  << : *generic_bow
+  upgrade tier: 2
+  damage: 5.7
+  defend: 9
+  agility: .145
+  critical hit chance: .087
+  for this upgrade:
+  - Raw Wood
+  - Raw Wood
+  - Raw Wood
+  - Raw Wood
+  - Bow String
+  - Bow String
+  - Flexible String
+Orc Bow:
+  display name: "Orc Bow"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 3
+  defend: 7
+  agility: .25
+  gold: 3.35
+  critical hit chance: .07
+  description: "Orc bows are less powerful than generic bows but are way more easy to use and transport."
+Knife:
+  display name: "Knife"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 3
+  defend: 5
+  agility: .25
+  gold: 1.24
+  critical hit chance: .04
+  description: "A simple knife. Fast and easy to use. Most goblins uses this weapon."
+Dagger:
+  display name: "Dagger"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 4
+  defend: 4
+  agility: .2
+  gold: 1.85
+  critical hit chance: .05
+  description: "The daggers are a generic longer knife that is often used by Yrch."
+Dwarf Axe: &dwarf_axe
+  display name: "Dwarf Axe"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 7
+  defend: 5
+  agility: .05
+  gold: 4.68
+  critical hit chance: .085
+  description: "A generic dwarf axe used by the Dwarves. A slow but deadly weapon."
+Dwarf Axe (1):
+  << : *dwarf_axe
+  upgrade tier: 1
+  damage: 9
+  defend: 7.5
+  agility: .035
+  critical hit chance: .094
+  for this upgrade:
+  - Refined Steel
+  - Refined Steel
+  - Raw Silver
+  - Raw Bronze
+Mace:
+  display name: "Mace"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 9
+  defend: 2
+  agility: -0.15
+  gold: 6.57
+  critical hit chance: .17
+  description: "A huge mace used by cavern trolls. It is an extremely damaging weapon but also a very slow weapon."
+Spear:
+  display name: "Spear"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 7
+  defend: 14
+  agility: .2
+  gold: 8.75
+  critical hit chance: .13
+  description: "The spear is a fast and agile weapon that lets you attack your enemy without letting them the time to attack you."
+Flaming Whip:
+  display name: "Flaming Whip"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 9
+  defend: 7
+  agility: .18
+  gold: 27.85
+  critical hit chance: .1
+  description: "The Flaming Whip is the powerful weapon that Balrogs uses. It is a very fast and agile weapon that can easily outcome any adventurer. "
+# Consumables
+Healing Potion:
+  type: "Consumable"
+  max bonus: 5
+  healing level: 999
+  gold: 9.56
+  description: "A generic healing potion that restores your health to it's max and gives it a bonus 5 to that maximum."
+# Utilities
+Map:
+  type: "Utility"
+  key: "M"
+  script name: 'map_item.py'
+  arguments:
+  - player
+  - map
+  - zone
+  description: "It's a map of the dungeons! [Press 'M' to activate.]"
+Teleportation Rock:
+  type: Utility
+  key: "T"
+  script name: "teleportation_rock.py"
+  arguments:
+  - player
+  - map
+  description: "It's a mysterious that asks you where you want to go... [Press 'T' to activate]"
+Heart Stone:
+  type: Utility
+  key: "H"
+  script name: "health_generator.py"
+  arguments:
+  - player
+  description: "A weird artifact that can randomly generate health... [Press 'H' to activate]"
+# Armors
+Wolf Fur: &wolf_fur
+  display name: "Wolf Fur"
+  upgrade tier: 0
+  type: "Armor Piece: Chestplate"
+  armor protection: .3
+  agility: .35
+  gold: 1.25
+  description: "A wolf fur that can also be used as a chestplate."
+Wolf Fur (1):
+  << : *wolf_fur
+  upgrade tier: 1
+  armor protection: .37
+  agility: .38
+  for this upgrade:
+  - Flexible Steel
+Leather Jacket:
+  upgrade tier: 0
+  type: "Armor Piece: Chestplate"
+  armor protection: .6
+  agility: .2
+  gold: .6
+  description: "A small jacket that may not protect you much but keeps you warm when it's cold."
+Leather Boots:
+  upgrade tier: 0
+  type: "Armor Piece: Boots"
+  armor protection: .1
+  agility: .35
+  gold: .6
+  description: "While these boots are dirty and wet, they grant you great mobility."
+Old Pants:
+  upgrade tier: 0
+  type: "Armor Piece: Leggings"
+  armor protection: .25
+  agility: .25
+  gold: .6
+  description: "An old pair of pants. It is large and very dirty."
+Broken Shield:
+  upgrade tier: 0
+  type: "Armor Piece: Shield"
+  armor protection: .05
+  agility: .1
+  gold: 1.1
+  description: "A Shield from ancient times, cloven in two and left for travelers to find."
+Knight Boots: &knight_boots
+  display name: Knight Boots
+  upgrade tier: 0
+  type: "Armor Piece: Boots"
+  armor protection: .24
+  agility: .2
+  gold: 13.45
+  description: "The generic boots of any good knight."
+Knight Boots (1):
+  << : *knight_boots
+  upgrade tier: 1
+  armor protection: .27
+  agility: .18
+  for this upgrade:
+  - Raw Wood
+  - Raw Iron
+  - Raw Iron
+Knight Boots (2):
+  << : *knight_boots
+  upgrade tier: 2
+  armor protection: .29
+  agility: .165
+  for this upgrade:
+  - Raw Copper
+  - Raw Copper
+  - Raw Silver
+Chainmail Leggings: &chainmail_leggings
+  display name: "Chainmail Leggings"
+  upgrade tier: 0
+  type: "Armor Piece: Leggings"
+  armor protection: .31
+  agility: .17
+  gold: 19.53
+  description: "Chainmail leggings are light weight but strong and durable armor pieces. They are used by most knights."
+Chainmail Leggings (1):
+  << : *chainmail_leggings
+  upgrade tier: 1
+  armor protection: .36
+  agility: .15
+  for this upgrade:
+  - Raw Iron
+  - Raw Iron
+  - Raw Bronze
+Chainmail Leggings (2):
+  << : *chainmail_leggings
+  upgrade tier: 2
+  armor protection: .38
+  agility: .13
+  for this upgrade:
+  - Raw Silver
+  - Raw Silver
+  - Flexible Steel
+  - Flexible Steel
+Chainmail Leggings (3):
+  << : *chainmail_leggings
+  upgrade tier: 3
+  armor protection: .38
+  agility: .145
+  for this upgrade:
+  - Steel
+  - Refined Steel
+  - Flexible Steel
+Chainmail Leggings (4):
+  << : *chainmail_leggings
+  upgrade tier: 4
+  armor protection: .38
+  agility: .1495
+  for this upgrade:
+  - Flexible Steel
+  - Flexible Steel
+  - Flexible Steel
+  - Flexible Steel
+  - Flexible Steel
+Orc Iron Leggings:
+  upgrade tier: 0
+  type: "Armor Piece: Leggings"
+  armor protection: .32
+  agility: .15
+  gold: 5.68
+  description: "The generics leggings of Goblins and Yrch. These leggings continue further along on your legs since Yrch and goblins don't wear boots.'"
+Orc Shredded Chestplate:
+  upgrade tier: 0
+  type: "Armor Piece: Chestplate"
+  armor protection: .32
+  agility: .15
+  gold: 8.65
+  description: "The generic chestplate of Goblins and Yrch."
+Shield:
+  upgrade tier: 0
+  type: "Armor Piece: Shield"
+  armor protection: .1
+  agility: .2
+  gold: 3.2
+  description: "While not very strong, this shield will serve you well in deflecting enemy attacks."
+Orc Shield:
+  upgrade tier: 0
+  type: "Armor Piece: Shield"
+  armor protection: .05
+  agility: .35
+  gold: 3.8
+  description: "A shield built for weight; used by the Black Yrch."
+Warg Fur Shield:
+  upgrade tier: 0
+  type: "Armor Piece: Shield"
+  armor protection: .045
+  agility: .15
+  gold: 3.24
+  description: "A shredded orc shield with warg fur on it."
+# Bags
+Stretched Bag:
+  type: "Bag"
+  inventory slots: 9
+  gold: 2.34
+  description: "An old stretched bag that lets you transport 9 items."
+Tissue Bag:
+  type: "Bag"
+  inventory slots: 4
+  gold: 4.35
+  description: "A tissue but still strong bag to stores up to 4 items."
+Orc Bag:
+  type: "Bag"
+  inventory slots: 3
+  gold: 1.25
+  description: "A generic orc bag that lets you transport 3 items."
+# Food
+Beef:
+  type: "Food"
+  max bonus: 0
+  healing level: 6
+  gold: 2.6
+  description: "A generic cooked beef than can restore your energy."
+Chicken:
+  type: "Food"
+  max bonus: 0
+  healing level: 4
+  gold: 3.2
+  description: "A generic cooked chicken leg that can restore your energy."
+Apple:
+  type: "Food"
+  max bonus: 0
+  healing level: 1
+  gold: .7
+  description: "Apples are not great for energy but are easy to find."
+Carrot:
+  type: "Food"
+  max bonus: 0
+  healing level: 2
+  gold: .7
+  description: "Carrot are great food for horses but not for humans."
+Porkchop:
+  type: "Food"
+  max bonus: 0
+  healing level: 5
+  gold: 6.7
+  description: "Cooked porkchops are great food that restore your energy by a lot."
+Raw Salmon:
+  type: "Food"
+  max bonus: 0
+  healing level: 2
+  gold: 3.2
+  description: "A raw salmon may not be the best thing to eat but it's always better than nothing."
+Bread:
+  type: "Food"
+  max bonus: 0
+  healing level: 6
+  gold: 3.4
+  description: "Bread is a great food and energy source for adventurers. It is cheap and full of energy."
+# Misc
+Bone:
+  type: "Misc"
+  gold: .25
+  description: "An old bone that seems to come from a great beast."
+Wooden Stick:
+  type: "Misc"
+  gold: .12
+  description: "Small stick made of wood. They often come from forest-destroying Goblins."
+Wolf Skin:
+  type: "Misc"
+  gold: 1.1
+  description: "A warm wolf skin."
+Wolf Skull:
+  type: "Misc"
+  gold: 1.1
+  description: "A huge skull of a head of a Warg."
+Slime:
+  type: "Misc"
+  gold: 1.2
+  description: "While slime may seems useless, it's actually used in many elixirs recipes."
+Hay Bale:
+  type: "Misc"
+  gold: 3.4
+  description: "Hay Bales are the only food that Kathallion horses accepts to eat, with Wheat of course."
+Wheat:
+  type: "Misc"
+  gold: .7
+  description: "Wheat are very useful in the Kathallion civilizations. It is used to feed horses, make Hay Bales but mostly, cook bread."
+Balrog Horn:
+  type: "Misc"
+  gold: 12.75
+  description: "Balrog Horns are very hard to get and very expensive on the market."
+# Keys
+Warg Key:
+  type: "Key"
+  description: "A key that opens any warg stable."
+Old Rusted Key:
+  type: "Key"
+  gold: 12.4
+  description: "An old rusted key you bought from Jerry The Junk Seller. Seems to be in a certain way useful."
+# Notes
+Note1:
+  type: "Note"
+  description: "The note reads: 'Help! Help!'. You wonder what it means..."
+# Metals
+Raw Iron:
+  type: "Metal"
+  gold: .6
+  description: "A bag with raw iron in it. Useful to forge swords."
+Raw Copper:
+  type: "Metal"
+  gold: .7
+  description: "A bag with raw copper in it. Useful to forge swords."
+Raw Silver:
+  type: "Metal"
+  gold: .95
+  description: "A bag with raw silver in it. Useful to forge swords."
+Raw Bronze:
+  type: "Metal"
+  gold: .55
+  description: "A bag with raw bronze in it. Useful to forge swords."
+Steel:
+  type: "Metal"
+  gold: .85
+  description: "A bag with steel ingots in it. Useful to forge axes."
+Refined Steel:
+  type: "Metal"
+  gold: .93
+  description: "A bag with stronger steel ingots in it. Useful to forge axes or other heavy weapons."
+Flexible Steel:
+  type: "Metal"
+  gold: .98
+  description: "A bag with flexible steel ingots in it. Useful to forge flexible swords."
+# Primary Materials
+Raw Wood:
+  type: "Primary Material"
+  gold: .29
+  description: "A bag with raw oak, spruce and other random woods in it. Useful to make shields or swords."
+Bow String:
+  type: "Primary Material"
+  gold: 5.7
+  description: "A generic solid string used for making bows."
+Strong String:
+  type: "Primary Material"
+  gold: 8.9
+  description: "A generic hyper solid string used for making low-range but powerful-shot bows."
+Flexible String:
+  type: "Primary Material"
+  gold: 8.9
+  description: "A generic solid string used for making high-range bows."

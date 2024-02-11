@@ -1,0 +1,37 @@
+name: Validate-YAML
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: [ master ]
+    types:
+      - synchronize
+      - opened
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}-${{ github.event_name }}
+  cancel-in-progress: false
+
+jobs:
+  validate-yaml:
+    name: Validate Yaml
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Fix Checkout Problems
+        run: git config --global core.protectNTFS false
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          show-progress: false
+      - name: Check Yaml Files
+        run: |
+          ls
+          yamllint -c .github/code_checks/yamllint_config.yaml data/*
+
+
