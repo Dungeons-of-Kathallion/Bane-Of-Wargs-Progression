@@ -67,13 +67,13 @@ def get_zone_color(zone_type):
             zones_colors = yaml.safe_load(f)
             zone_code = zones_colors[str(zone_type)]
             if zone_code == 0:
-                zone_color = COLOR_GREENS_4 + '█'
+                zone_color = COLOR_GREENS_4 + '╬'
             elif zone_code == 1:
-                zone_color = COLOR_GREENS_5 + '█'
+                zone_color = COLOR_GREENS_5 + '╬'
             elif zone_code == 2:
-                zone_color = COLOR_GREEN + '█'
+                zone_color = COLOR_GREEN + '╬'
             elif zone_code == 3:
-                zone_color = COLOR_GREENS_12 + '█'
+                zone_color = COLOR_GREENS_12 + '╬'
             elif zone_code == 4:
                 zone_color = COLOR_GREENS_2 + '↟'
             elif zone_code == 5:
@@ -137,7 +137,7 @@ def get_zone_color(zone_type):
             elif zone_code == 34:
                 zone_color = COLOR_CYAN_1 + '≈'
             elif zone_code == 35:
-                zone_color = COLOR_GREENS_1 + '█'
+                zone_color = COLOR_GREENS_1 + '#'
     except Exception as error:
         print(COLOR_RED + "ERROR: " + COLOR_STYLE_BRIGHT + f"zone type '{zone_type}' is not a valid zone type." + COLOR_RESET_ALL)
         print(error)
