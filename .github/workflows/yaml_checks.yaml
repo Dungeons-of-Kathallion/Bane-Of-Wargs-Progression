@@ -32,6 +32,6 @@ jobs:
       - name: Check Yaml Files
         run: |
           ls
-          yamllint -c .github/code_checks/yamllint_config.yaml data/*
+          yamllint -c .github/code_checks/yamllint_config.yaml *.yaml
 
 
