@@ -48691,7 +48691,7 @@ point2325:
 point2326:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 46
 point2327:
@@ -49549,7 +49549,7 @@ point2454:
 point2455:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 45
 point2456:
@@ -50407,7 +50407,7 @@ point2583:
 point2584:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 44
 point2585:
@@ -51271,7 +51271,7 @@ point2712:
 point2713:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 43
 point2714:
@@ -52129,7 +52129,7 @@ point2841:
 point2842:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 42
 point2843:
@@ -52981,7 +52981,7 @@ point297:
 point2970:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 41
 point2971:
@@ -53833,7 +53833,7 @@ point3097:
 point3098:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 40
 point3099:
@@ -54697,13 +54697,13 @@ point3226:
 point3227:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 39
 point3228:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 39
 point3229:
@@ -55555,13 +55555,13 @@ point3355:
 point3356:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 38
 point3357:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 38
 point3358:
@@ -56413,13 +56413,13 @@ point3484:
 point3485:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 37
 point3486:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 37
 point3487:
@@ -57277,13 +57277,13 @@ point3613:
 point3614:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 36
 point3615:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 36
 point3616:
@@ -58135,13 +58135,13 @@ point3742:
 point3743:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 35
 point3744:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 35
 point3745:
@@ -58993,13 +58993,13 @@ point3871:
 point3872:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 34
 point3873:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 34
 point3874:
@@ -59863,13 +59863,13 @@ point4000:
 point4001:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 33
 point4002:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 33
 point4003:
@@ -60721,13 +60721,13 @@ point413:
 point4130:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 32
 point4131:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -59
   y: 32
 point4132:
@@ -61573,7 +61573,7 @@ point4258:
 point4259:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 31
 point426:
@@ -62431,7 +62431,7 @@ point4387:
 point4388:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 30
 point4389:
@@ -63295,7 +63295,7 @@ point4516:
 point4517:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Californ Beaches
   x: -60
   y: 29
 point4518:
@@ -65023,13 +65023,13 @@ point4776:
 point4777:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -58
   y: 27
 point4778:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Pickaxe Forge
   x: -57
   y: 27
 point4779:
@@ -65887,13 +65887,13 @@ point4905:
 point4906:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -58
   y: 26
 point4907:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -57
   y: 26
 point4908:
@@ -66739,25 +66739,25 @@ point5032:
 point5033:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 25
 point5034:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -59
   y: 25
 point5035:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -58
   y: 25
 point5036:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -57
   y: 25
 point5037:
@@ -67597,13 +67597,13 @@ point5161:
 point5162:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: Seaside Hostels
   x: -60
   y: 24
 point5163:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -59
   y: 24
 point5164:
@@ -68455,7 +68455,7 @@ point5290:
 point5291:
   blocked:
   - None
-  map zone: Californ Woods
+  map zone: New Hyru
   x: -60
   y: 23
 point5292:
@@ -76327,13 +76327,13 @@ point6471:
 point6472:
   blocked:
   - None
-  map zone: Los Gerudos
+  map zone: Kathal Horses
   x: -40
   y: 14
 point6473:
   blocked:
   - None
-  map zone: Los Gerudos
+  map zone: Kathal Horses
   x: -39
   y: 14
 point6474:
@@ -77191,7 +77191,7 @@ point6600:
 point6601:
   blocked:
   - None
-  map zone: Los Gerudos
+  map zone: Kathal Horses
   x: -40
   y: 13
 point6602:
@@ -78061,13 +78061,13 @@ point6731:
 point6732:
   blocked:
   - None
-  map zone: Gerud Valleys
+  map zone: Los Gerudos
   x: -38
   y: 12
 point6733:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 12
 point6734:
@@ -78919,13 +78919,13 @@ point6860:
 point6861:
   blocked:
   - None
-  map zone: Gerud Valleys
+  map zone: Los Gerudos
   x: -38
   y: 11
 point6862:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 11
 point6863:
@@ -79777,19 +79777,19 @@ point699:
 point6990:
   blocked:
   - None
-  map zone: Gerud Valleys
+  map zone: Los Gerudos Hostel
   x: -38
   y: 10
 point6991:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 10
 point6992:
   blocked:
   - None
-  map zone: Stall Seas Bay
+  map zone: Los Gerudos
   x: -36
   y: 10
 point6993:
@@ -80641,7 +80641,7 @@ point7118:
 point7119:
   blocked:
   - None
-  map zone: Gerud Valleys
+  map zone: Los Gerudos Hostel
   x: -38
   y: 9
 point712:
@@ -80653,13 +80653,13 @@ point712:
 point7120:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 9
 point7121:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -36
   y: 9
 point7122:
@@ -81505,7 +81505,7 @@ point7248:
 point7249:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 8
 point725:
@@ -81517,7 +81517,7 @@ point725:
 point7250:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -36
   y: 8
 point7251:
@@ -82363,13 +82363,13 @@ point7377:
 point7378:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 7
 point7379:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -36
   y: 7
 point738:
@@ -83227,13 +83227,13 @@ point7506:
 point7507:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 6
 point7508:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -36
   y: 6
 point7509:
@@ -84079,19 +84079,19 @@ point7634:
 point7635:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -38
   y: 5
 point7636:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 5
 point7637:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -36
   y: 5
 point7638:
@@ -84937,13 +84937,13 @@ point7763:
 point7764:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Gerud Forges
   x: -38
   y: 4
 point7765:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 4
 point7766:
@@ -85795,13 +85795,13 @@ point7892:
 point7893:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Gerud Forges
   x: -38
   y: 3
 point7894:
   blocked:
   - None
-  map zone: Gerud Desert
+  map zone: Los Gerudos
   x: -37
   y: 3
 point7895:

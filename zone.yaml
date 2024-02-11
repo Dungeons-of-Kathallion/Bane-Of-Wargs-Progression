@@ -389,6 +389,55 @@ Woodstack Hostel:
       | $BROWN||--$GRAY0$BROWN-|| $WHITE|
       x__________x
 
+Seaside Hostels:
+  name: "Seaside Hostels"
+  type: hostel
+  cost value: 1.8
+  sleep gold: 21
+  location: 0
+  description: "The Seaside Hostels are a company of hostels that are settled in the west coast of the Stall Island. There are great hostels near the beach."
+  news:
+  - "..."
+  sells:
+    drinks:
+    - Beer
+    - Whisky
+    - Wine
+    - Purple Elixir
+    - Coffee
+    - Hot Chocolate
+    - Green Elixir
+    items:
+    - Porkchop
+    - Raw Salmon
+    - Beef
+    - Bread
+    - Chicken
+    - Tissue Bag
+    - Healing Potion
+  buys:
+    items:
+    - Tissue Bag
+    - Apple
+    - Carrot
+    - Healing Potion
+    - Knife
+  map:
+    map raw: |
+      x__________x
+      |_____≈≈≈≈≈|
+      |  __ \≈≈≈≈|
+      | [  ]|;;;;|
+      | [  ]|;;;;|
+      x__________x
+    map full: |
+      x__________x
+      |$BROWN_____$BLUE≈≈≈≈≈$WHITE|
+      |  $YELLOW__ $BROWN\$BLUE≈≈≈≈$WHITE|
+      | $YELLOW[  ]$BROWN|$YELLOW;;;;$WHITE|
+      | $YELLOW[  ]$BROWN|$YELLOW;;;;$WHITE|
+      x__________x
+
 Pickaxe Forge:
   name: "Pickaxe Forge"
   type: forge
@@ -420,6 +469,44 @@ Pickaxe Forge:
   forge:
     buys:
     - Raw Iron
+    sells:
+    - Raw Iron
+    - Raw Silver
+    - Raw Copper
+    - Raw Bronze
+
+Gerud Forges:
+  name: "Gerud Forges"
+  type: forge
+  cost value: 1.25
+  location: 0
+  description: "One of the most known forge in the eastern Stall Island. Huge prices but great quality."
+  news:
+  - "..."
+  map:
+    map raw: |
+      x__________x
+      | /\______ |
+      |/ []     \|
+      ||   __   ||
+      ||  <  >  ||
+      x__________x
+    map full: |
+      x__________x
+      |$BROWN /\______ $WHITE|
+      |$BROWN/ $GRAY[]$BROWN     \$WHITE|
+      |$BROWN|   $YELLOW__$BROWN   |$WHITE|
+      |$BROWN|  $YELLOW<  >$BROWN  |$WHITE|
+      x__________x
+  forge:
+    buys:
+    - Raw Iron
+    - Raw Silver
+    - Raw Copper
+    - Raw Bronze
+    - Steel
+    - Refined Steel
+    - Flexible Steel
     sells:
     - Raw Iron
     - Raw Silver
@@ -732,7 +819,7 @@ Gerud Valleys:
 Badlands:
   name: "Badlands"
   description: "The Badlands are a highly dangerous place, with many enemies wanting your death. In the past, there were drawves mines but they seem to be gone..."
-  type: desert valleys
+  type: badlands
   map:
     map full: |
       x__________x
@@ -747,4 +834,24 @@ Badlands:
       |~;[]~~;I~;|
       |;~~[];~~;;|
       |;[];~;;;[]|
+      x__________x
+
+Californ Beaches:
+  name: "Californ Beaches"
+  description: "The beaches of the Californ Woods in the western Stall Island."
+  type: beach
+  map:
+    map full: |
+      x__________x
+      |$BLUE≈≈≈≈≈≈≈≈≈≈$WHITE|
+      |$BLUE≈≈≈≈≈≈≈≈≈≈$WHITE|
+      |$YELLOW;$BLUE≈$YELLOW;;$BLUE≈≈$YELLOW;;;;$WHITE|
+      |$YELLOW;;;;;;;;;;$WHITE|
+      x__________x
+    map raw: |
+      x__________x
+      |≈≈≈≈≈≈≈≈≈≈|
+      |≈≈≈≈≈≈≈≈≈≈|
+      |;≈;;≈≈;;;;|
+      |;;;;;;;;;;|
       x__________x

@@ -26,7 +26,7 @@ def print_map(player, map, zone):
     current_point_list = []
     counting = 0
     while counting < 16384:
-        if coord_x > 64: 
+        if coord_x > 64:
             coord_x = -64
             coord_y -= 1
             print("║")
@@ -75,9 +75,9 @@ def get_zone_color(zone_type):
             elif zone_code == 3:
                 zone_color = COLOR_GREENS_12 + '█'
             elif zone_code == 4:
-                zone_color = COLOR_GREENS_2 + '█'
+                zone_color = COLOR_GREENS_2 + '↟'
             elif zone_code == 5:
-                zone_color = COLOR_GREENS_1 + '█'
+                zone_color = COLOR_GREENS_1 + '⇞'
             elif zone_code == 6:
                 zone_color = COLOR_GRAY_4 + '█'
             elif zone_code == 7:
@@ -119,21 +119,21 @@ def get_zone_color(zone_type):
             elif zone_code == 25:
                 zone_color = COLOR_RED_0 + '█'
             elif zone_code == 26:
-                zone_color = COLOR_BLUE_5 + '▓'
+                zone_color = COLOR_BLUE_5 + '⌂'
             elif zone_code == 27:
-                zone_color = COLOR_BLUE_14 + '▒'
+                zone_color = COLOR_BLUE_14 + '⌂'
             elif zone_code == 28:
-                zone_color = COLOR_BLUE_14 + '▒'
+                zone_color = COLOR_BLUE_14 + '⟰'
             elif zone_code == 29:
-                zone_color = COLOR_BLUE_14 + '▒'
+                zone_color = COLOR_BLUE_14 + '⟰'
             elif zone_code == 30:
-                zone_color = COLOR_BLUE_14 + '▒'
+                zone_color = COLOR_BLUE_14 + '⥣'
             elif zone_code == 31:
-                zone_color = COLOR_BLUE_14 + '▒'
+                zone_color = COLOR_BLUE_14 + '⤊'
             elif zone_code == 32:
                 zone_color = COLOR_BLUE_14 + '±'
             elif zone_code == 33:
-                zone_color = COLOR_CYAN_2 + '≈'
+                zone_color = COLOR_CYAN_3 + '≈'
             elif zone_code == 34:
                 zone_color = COLOR_CYAN_1 + '≈'
             elif zone_code == 35:
