@@ -121,17 +121,17 @@ def get_zone_color(zone_type):
             elif zone_code == 26:
                 zone_color = COLOR_BLUE_5 + '⌂'
             elif zone_code == 27:
-                zone_color = COLOR_BLUE_14 + '⌂'
+                zone_color = COLOR_BLUE_13 + '⌂'
             elif zone_code == 28:
-                zone_color = COLOR_BLUE_14 + '⟰'
+                zone_color = COLOR_BLUE_13 + '⟰'
             elif zone_code == 29:
-                zone_color = COLOR_BLUE_14 + '⟰'
+                zone_color = COLOR_BLUE_13 + '⟰'
             elif zone_code == 30:
-                zone_color = COLOR_BLUE_14 + '⥣'
+                zone_color = COLOR_BLUE_13 + '⥣'
             elif zone_code == 31:
-                zone_color = COLOR_BLUE_14 + '⤊'
+                zone_color = COLOR_BLUE_13 + '⤊'
             elif zone_code == 32:
-                zone_color = COLOR_BLUE_14 + '±'
+                zone_color = COLOR_BLUE_13 + '±'
             elif zone_code == 33:
                 zone_color = COLOR_CYAN_3 + '≈'
             elif zone_code == 34:
