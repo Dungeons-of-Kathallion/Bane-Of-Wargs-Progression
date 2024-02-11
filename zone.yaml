@@ -81,7 +81,7 @@ Magrove Wastes Waters:
 
 Middle Area Lakes:
   name: "Middle Area Lakes"
-  description: "The lakes that are approximatively at the middle point of the Stall Island. They are in between the Goro Mounts, the Californ Woods, the Mangrove Wastes and the Gerud Desert."
+  description: "The lakes that are approximately at the middle point of the Stall Island. They are in between the Goro Mounts, the Californ Woods, the Mangrove Wastes and the Gerud Desert."
   type: lake
   map:
     map full: |
@@ -300,7 +300,7 @@ Los Gerudos Hostel:
     - Wolf Skull
     - Wolf Skin
     - Wheat
-    
+
 Kathal Horses:
   name: "Kathal Horses"
   description: "A great place where you can adopt horses mounts, train them or sell them. You can also find good quality horse equipment here."
@@ -568,7 +568,7 @@ The Edge Of Goro Mounts:
       |▒@#▒▒▒▒▒@▒|
       |#▒▒▒▒@▒#▒▒|
       x__________x
-  
+
 The Goro Mounts:
   name: "The Goro Mounts"
   type: mountains
@@ -588,7 +588,7 @@ The Goro Mounts:
       | /~~/~~~\*|
       |/  /*  \ \|
       x__________x
-  
+
 The Goro Mounts Peaks:
   name: "The Goro Mounts Peaks"
   type: high mountains
@@ -608,7 +608,7 @@ The Goro Mounts Peaks:
       | /~~/~~~\*|
       |/  /*  \ \|
       x__________x
-  
+
 Stall Fields:
   name: "Stall Fields"
   description: "The great fields of the Stall Island."
@@ -628,7 +628,7 @@ Stall Fields:
       |,,,_,,o,_,|
       |o_,,,_,,,,|
       x__________x"
-  
+
 Californ Woods:
   name: "Californ Woods"
   description: "The Californ Woods are known to be one of the most dangerous woods of the Stall Island."
@@ -668,7 +668,7 @@ Forlindon Woods:
       | ( (    ) |
       |,,|    |,,|
       x__________x
-      
+
 Mangrove Wastes:
   name: "Mangrove Wastes"
   description: "The Mangrove Wastes are great wastes land where you find almost no live, except monsters."

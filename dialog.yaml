@@ -20,7 +20,7 @@ Test Dialog:
           - create_choice(third choice, print(huge!))
       - if(input_2, False):
         - print(phrase 5)
-        
+
 Palace Enter:
   conversation:
     - label 1:
