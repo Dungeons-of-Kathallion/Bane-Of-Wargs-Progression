@@ -32,7 +32,7 @@ def print_map(player, map, zone):
             print("║")
         if coord_x < -63:
             print("║", end="")
-        if not not player_already_printed and coord_x == player_x and coord_y == player_y:
+        if not player_already_printed and coord_x == player_x and coord_y == player_y:
             print(COLOR_CYAN + COLOR_STYLE_BRIGHT + "¶" + COLOR_RESET_ALL, end="")
             player_already_printed = True
         else:
