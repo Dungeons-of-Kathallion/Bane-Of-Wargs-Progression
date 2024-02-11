@@ -25,7 +25,7 @@ def print_map(player, map, zone):
     coord_y = 64
     current_point_list = []
     counting = 0
-    while counting < 16384:
+    while counting < 16383:
         if coord_x > 64:
             coord_x = -64
             coord_y -= 1
