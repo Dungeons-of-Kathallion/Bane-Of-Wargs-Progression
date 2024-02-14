@@ -707,14 +707,14 @@ Stall Fields:
       |$GREEN,,$YELLOWo__$GREEN,,$YELLOW_$GREEN,,$WHITE|
       |$GREEN,,,$YELLOW_$GREEN,,$YELLOWo$GREEN,$YELLOW_$GREEN,$WHITE|
       |$YELLOWo_$GREEN,,,$YELLOW_$GREEN,,,,$WHITE|
-      x__________x"
+      x__________x
     map raw: |
       x__________x
       |,,_,,,,o_,|
       |,,o__,,_,,|
       |,,,_,,o,_,|
       |o_,,,_,,,,|
-      x__________x"
+      x__________x
 
 Californ Woods:
   name: "Californ Woods"
