@@ -645,7 +645,6 @@ Map:
   type: "Utility"
   key: "M"
   script name: 'map_item.py'
-  gold: 19.56
   arguments:
   - player
   - map
