@@ -516,20 +516,35 @@ Dwarf Axe: &dwarf_axe
   gold: 25.36
   critical hit chance: .085
   description: "A generic dwarf axe used by the Dwarves. A slow but deadly weapon."
+  thumbnail raw: |
+    ╔════════════════════════════╗
+    ║                            ║
+    ║          ,  /\  .          ║
+    ║         //`-||-'\\         ║
+    ║        (| -=||=- |)        ║
+    ║         \\,-||-.//         ║
+    ║          `  ||  '          ║
+    ║             ||             ║
+    ║             ||             ║
+    ║             ||             ║
+    ║             ||             ║
+    ║             ||             ║
+    ║             ()             ║
+    ╚════════════════════════════╝
   thumbnail: |
     ╔════════════════════════════╗
     ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
+    ║          $GRAY,  /\  .          $WHITE║
+    ║         $GRAY//`-$BROWN||$GRAY-'\\         $WHITE║
+    ║        $GRAY(| -$CYAN=$BROWN||$CYAN=$GRAY- |)        $WHITE║
+    ║         $GRAY\\,-$BROWN||$GRAY-.//         $WHITE║
+    ║          $GRAY`  $BROWN||  $GRAY'          $WHITE║
+    ║             $BROWN||             $WHITE║
+    ║             $BROWN||             $WHITE║
+    ║             $BROWN||             $WHITE║
+    ║             $BROWN||             $WHITE║
+    ║             $BROWN||             $WHITE║
+    ║             $GREEN()             $WHITE║
     ╚════════════════════════════╝
 Dwarf Axe (1):
   <<: *dwarf_axe
@@ -543,6 +558,73 @@ Dwarf Axe (1):
   - Refined Steel
   - Raw Silver
   - Raw Bronze
+Throwing Axe: &throwing_axe
+  display name: "Throwing Axe"
+  upgrade tier: 0
+  type: "Weapon"
+  damage: 8
+  defend: 2
+  agility: .09
+  gold: 31.56
+  critical hit chance: .4
+  description: >
+    The Throwing Axe is at first a dwarf weapon, but nowadays, it's used by many humans and it is recognized to be a powerful weapon.
+    Meanwhile, it's not very good at defending.
+  thumbnail raw: |
+    ╔════════════════════════════╗
+    ║                            ║
+    ║                  __        ║
+    ║               ,. |_'.      ║
+    ║              / / /:\ \     ║
+    ║            _/_/_/::: |     ║
+    ║           /o_'/o>::/ /     ║
+    ║           / /'/:::/ /      ║
+    ║          / /_/::.'_/       ║
+    ║         / / \__.-'         ║       
+    ║        / /                 ║      
+    ║       / /                  ║           
+    ║        /                   ║
+    ╚════════════════════════════╝
+  thumbnail: |
+    ╔════════════════════════════╗
+    ║                            ║
+    ║                  $GRAY__        $WHITE║
+    ║               $BROWN,. $GRAY|_'.      $WHITE║
+    ║              $BROWN/ / /$BLUE:$GRAY\ \     $WHITE║
+    ║            $BROWN_/_/_/$BLUE:::$GRAY |     $WHITE║
+    ║           $BROWN/$GREENo_'$GRAY/$GREENo$GRAY>$BLUE::$GRAY/ /     $WHITE║
+    ║           $BROWN/ /'/$BLUE:::$GRAY/ /      $WHITE║
+    ║          $BROWN/ /_/$BLUE::.$GRAY'_/       $WHITE║
+    ║         $BROWN/ / $GRAY\__.-'         $WHITE║       
+    ║        $BROWN/ /                 $WHITE║      
+    ║       $BROWN/ /                  $WHITE║           
+    ║        $BROWN/                   $WHITE║
+    ╚════════════════════════════╝
+Throwing Axe (1):
+  <<: *throwing_axe
+  upgrade tier: 1
+  damage: 9
+  defend: 1.7
+  agility: .12
+  critical hit chance: .49
+  for this upgrade:
+  - Raw Silver
+  - Raw Silver
+  - Raw Silver
+  - Raw Bronze
+Throwing Axe (2):
+  <<: *throwing_axe
+  upgrade tier: 2
+  damage: 9.8
+  defend: 1.5
+  agility: .15
+  critical hit chance: .53
+  for this upgrade:
+  - Raw Silver
+  - Raw Silver
+  - Steel
+  - Steel
+  - Flexible Steel
 Mace:
   display name: "Mace"
   upgrade tier: 0
@@ -553,21 +635,36 @@ Mace:
   gold: 15.46
   critical hit chance: .17
   description: "A huge mace used by cavern trolls. It is an extremely damaging weapon but also a very slow weapon."
+  thumbnail raw: |
+    ╔════════════════════════════╗
+    ║            ^  ^            ║
+    ║          .`\\\\'.          ║
+    ║        <|   <   >|         ║
+    ║         | >   >  |>        ║
+    ║         '.      .`         ║
+    ║           _)__(_           ║
+    ║            )__(            ║
+    ║            )__(            ║
+    ║            )__(            ║
+    ║            )__(            ║
+    ║            )__(            ║
+    ║           <<()>>           ║
+    ╚════════════════════════════╝   
   thumbnail: |
     ╔════════════════════════════╗
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ║                            ║
-    ╚════════════════════════════╝
+    ║            $CYAN^  ^            $WHITE║
+    ║          $GRAY.`\\\\'.          $WHITE║
+    ║        $CYAN<$GRAY|   $CYAN<   >$GRAY|         $WHITE║
+    ║         $GRAY| $CYAN>   >  $GRAY|$CYAN>        $WHITE║
+    ║         $GRAY'.      .`         $WHITE║
+    ║           $GRAY_$BROWN)__($BROWN$GRAY_           $WHITE║
+    ║            $BROWN)__(            $WHITE║
+    ║            $BROWN)__(            $WHITE║
+    ║            $BROWN)__(            $WHITE║
+    ║            $BROWN)__(            $WHITE║
+    ║            $BROWN)__(            $WHITE║
+    ║           $GRAY<<$PURPLE()$GRAY>>           $WHITE║
+    ╚════════════════════════════╝   
 Spear:
   display name: "Spear"
   upgrade tier: 0
