@@ -2351,6 +2351,7 @@ point10349:
   x: -33
   y: -16
 point1035:
+  dialog: Cut Wood And Get Back Home Stopover
   blocked:
   - None
   map zone: Forlindon Woods

@@ -36,5 +36,39 @@ Deliver Raw Wood To Jacky Completed:
       - goto(label 2)
   use actions: true
   actions:
+    add attributes:
+    - has finished jacky deliver
     gold modification:
       augmentation: $gold_augmentation
+
+Cut Wood And Get Back Home Offer:
+  conversation:
+    - label 1:
+      - print(Now, go to -61, 56 to cut some wood and go back home at -61, 57 to get some sleep.)
+  use actions: true
+  actions:
+    add attributes:
+    - has mission cut wood and get back home offered
+
+Cut Wood And Get Back Home Stopover:
+  to display:
+    player attributes:
+    - has mission cut wood and get back home offered
+  conversation:
+    - label 1:
+      - print(Let's cut some wood now...)
+      - wait(30)
+      - print(1 or 2 hours after...)
+  use actions: false
+  scene: Forlindon Woods
+
+Cut Wood And Get Back Home Complete:
+  conversation:
+    - label 1:
+      - print(Now that you're at home, you can get some sleep and rest...)
+      - wait(60)
+      - print(A few hours after...)
+  use actions: true
+  actions:
+    use drink:
+    - Healing Potion
