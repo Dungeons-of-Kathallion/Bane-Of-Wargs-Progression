@@ -1,0 +1,7 @@
+type: str()
+max bonus: int()
+healing level: int()
+gold: num()
+description: str()
+thumbnail: str()
+thumbnail raw: str(required=False)

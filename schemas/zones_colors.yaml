@@ -1,0 +1,36 @@
+fields: 0
+hills: 1
+plains: 2
+valleys: 3
+woods: 4
+dark woods: 5
+mountains: 6
+low mountains: 7
+high mountains: 8
+black rocky mountains: 9
+desert: 10
+desert hills: 11
+desert valleys: 12
+badlands: 13
+badlands canyon: 14
+badlands hills: 15
+badlands valleys: 16
+badlands plateaus: 17
+badlands butte: 18
+badlands landforms: 19
+flatlands: 20
+beach: 21
+plains canyon: 22
+desert canyons: 23
+rocky canyons: 24
+black rocky canyons: 25
+village: 26
+hostel: 27
+forge: 28
+blacksmith: 29
+stable: 30
+church: 31
+castles: 32
+lake: 33
+sea: 34
+swamps: 35

@@ -1,0 +1,6 @@
+type: str()
+inventory slots: int()
+gold: num()
+description: str()
+thumbnail: str()
+thumbnail raw: str(required=False)
