@@ -791,6 +791,46 @@ Healing Potion:
     ║       $LIGHT_GRAY\____________/       $WHITE║
     ║                            $WHITE║
     ╚════════════════════════════╝
+Resistance Potion:
+  type: "Consumable"
+  effects:
+    - effect 1:
+      type: "protection"
+      effect time: .8
+      protection change:
+        coefficient: "1.4"
+  gold: 14.6
+  description: "A generic resistance potion that "
+  thumbnail raw: |
+    ╔════════════════════════════╗
+    ║            ____            ║
+    ║           [####]           ║
+    ║       ____[####]____       ║
+    ║      /              \      ║
+    ║     /                \     ║
+    ║     |                |     ║
+    ║     | ≈≈≈     ≈≈   ≈ |     ║
+    ║     |≈≈≈≈≈    ≈≈≈≈≈≈≈|     ║
+    ║     \≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈/     ║
+    ║      \≈≈≈≈≈≈≈≈≈≈≈≈≈≈/      ║
+    ║       \____________/       ║
+    ║                            ║
+    ╚════════════════════════════╝
+  thumbnail: |
+    ╔════════════════════════════╗
+    ║            $BROWN____            $WHITE║
+    ║           $BROWN[####]           $WHITE║
+    ║       $LIGHT_GRAY____$BROWN[####]$LIGHT_GRAY____       $WHITE║
+    ║      $LIGHT_GRAY/              \      $WHITE║
+    ║     $LIGHT_GRAY/                \     $WHITE║
+    ║     $LIGHT_GRAY|                |     $WHITE║
+    ║     $LIGHT_GRAY| $GREEN≈≈≈     ≈≈   ≈ $LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY|$GREEN≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY\$GREEN≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
+    ║      $LIGHT_GRAY\$GREEN≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
+    ║       $LIGHT_GRAY\____________/       $WHITE║
+    ║                            $WHITE║
+    ╚════════════════════════════╝
 # Utilities
 Map:
   type: "Utility"
