@@ -772,7 +772,7 @@ Knight Beverage:
       protection change:
         coefficient: 1.4
   gold: 34.6
-  description: "A generic resistance potion that "
+  description: "A powerful elixir that is used by almost every knights."
   thumbnail raw: |
     ╔════════════════════════════╗
     ║            ____            ║
