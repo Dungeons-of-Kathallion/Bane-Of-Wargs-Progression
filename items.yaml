@@ -750,6 +750,59 @@ Flaming Whip:
     ║     $BROWNXX    $YELLOW~$RED~~$ORANGE~               $WHITE║
     $CYAN@$WHITE══════════════════════════════$CYAN@$WHITE
 # Consumables
+Knight Beverage:
+  type: "Consumable"
+  effects:
+    - effect 1:
+      type: "healing"
+      effect time: .5
+      health change:
+        augmentation: 999
+        max health:
+          augmentation: 5
+    - effect 2:
+      type: "strength"
+      effect time: .5
+      strength change:
+        damage coefficient: 1.22
+        critical hit chance coefficient: 1.22
+    - effect 3:
+      type: "protection"
+      effect time: .5
+      protection change:
+        coefficient: 1.4
+  gold: 34.6
+  description: "A generic resistance potion that "
+  thumbnail raw: |
+    ╔════════════════════════════╗
+    ║            ____            ║
+    ║           [####]           ║
+    ║       ____[####]____       ║
+    ║      /              \      ║
+    ║     /                \     ║
+    ║     |                |     ║
+    ║     | ≈≈≈     ≈≈   ≈ |     ║
+    ║     |≈≈≈≈≈    ≈≈≈≈≈≈≈|     ║
+    ║     \≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈/     ║
+    ║      \≈≈≈≈≈≈≈≈≈≈≈≈≈≈/      ║
+    ║       \____________/       ║
+    ║                            ║
+    ╚════════════════════════════╝
+  thumbnail: |
+    ╔════════════════════════════╗
+    ║            $BROWN____            $WHITE║
+    ║           $BROWN[####]           $WHITE║
+    ║       $LIGHT_GRAY____$BROWN[####]$LIGHT_GRAY____       $WHITE║
+    ║      $LIGHT_GRAY/              \      $WHITE║
+    ║     $LIGHT_GRAY/                \     $WHITE║
+    ║     $LIGHT_GRAY|                |     $WHITE║
+    ║     $LIGHT_GRAY| $CYAN≈≈$RED≈     $CYAN≈≈   ≈ $LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY|$CYAN≈$RED≈≈$GREEN≈≈    ≈≈≈$CYAN≈≈$RED≈≈$LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY\$CYAN≈$GREEN≈≈≈$CYAN≈≈≈≈≈≈$GREEN≈≈$RED≈$GREEN≈≈≈$LIGHT_GRAY/     $WHITE║
+    ║      $LIGHT_GRAY\$CYAN≈≈$RED≈≈≈$GREEN≈≈≈$CYAN≈≈$RED≈$GREEN≈≈≈$LIGHT_GRAY/      $WHITE║
+    ║       $LIGHT_GRAY\____________/       $WHITE║
+    ║                            $WHITE║
+    ╚════════════════════════════╝
 Healing Potion:
   type: "Consumable"
   effects:
@@ -838,8 +891,8 @@ Strength Potion:
       type: "strength"
       effect time: .5
       strength change:
-        damage coefficient: 2
-        critical hit chance coefficient: 2
+        damage coefficient: 1.2
+        critical hit chance coefficient: 1.3
   gold: 14.6
   description: "A generic resistance potion that "
   thumbnail raw: |
