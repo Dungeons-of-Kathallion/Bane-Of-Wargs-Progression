@@ -784,10 +784,10 @@ Healing Potion:
     ║      $LIGHT_GRAY/              \      $WHITE║
     ║     $LIGHT_GRAY/                \     $WHITE║
     ║     $LIGHT_GRAY|                |     $WHITE║
-    ║     $LIGHT_GRAY| $RED≈≈≈     ≈≈   ≈ $LIGHT_GRAY|     $WHITE║
-    ║     $LIGHT_GRAY|$RED≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
-    ║     $LIGHT_GRAY\$RED≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
-    ║      $LIGHT_GRAY\$RED≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
+    ║     $LIGHT_GRAY| $CYAN≈≈≈     ≈≈   ≈ $LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY|$CYAN≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY\$CYAN≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
+    ║      $LIGHT_GRAY\$CYAN≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
     ║       $LIGHT_GRAY\____________/       $WHITE║
     ║                            $WHITE║
     ╚════════════════════════════╝
@@ -796,9 +796,9 @@ Resistance Potion:
   effects:
     - effect 1:
       type: "protection"
-      effect time: .8
+      effect time: .7
       protection change:
-        coefficient: "1.4"
+        coefficient: 1.4
   gold: 14.6
   description: "A generic resistance potion that "
   thumbnail raw: |
