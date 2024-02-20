@@ -784,10 +784,10 @@ Healing Potion:
     ║      $LIGHT_GRAY/              \      $WHITE║
     ║     $LIGHT_GRAY/                \     $WHITE║
     ║     $LIGHT_GRAY|                |     $WHITE║
-    ║     $LIGHT_GRAY| $CYAN≈≈≈     ≈≈   ≈ $LIGHT_GRAY|     $WHITE║
-    ║     $LIGHT_GRAY|$CYAN≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
-    ║     $LIGHT_GRAY\$CYAN≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
-    ║      $LIGHT_GRAY\$CYAN≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
+    ║     $LIGHT_GRAY| $RED≈≈≈     ≈≈   ≈ $LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY|$RED≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY\$RED≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
+    ║      $LIGHT_GRAY\$RED≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
     ║       $LIGHT_GRAY\____________/       $WHITE║
     ║                            $WHITE║
     ╚════════════════════════════╝
@@ -828,6 +828,47 @@ Resistance Potion:
     ║     $LIGHT_GRAY|$GREEN≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
     ║     $LIGHT_GRAY\$GREEN≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
     ║      $LIGHT_GRAY\$GREEN≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
+    ║       $LIGHT_GRAY\____________/       $WHITE║
+    ║                            $WHITE║
+    ╚════════════════════════════╝
+Strength Potion:
+  type: "Consumable"
+  effects:
+    - effect 1:
+      type: "strength"
+      effect time: .5
+      strength change:
+        damage coefficient: 2
+        critical hit chance coefficient: 2
+  gold: 14.6
+  description: "A generic resistance potion that "
+  thumbnail raw: |
+    ╔════════════════════════════╗
+    ║            ____            ║
+    ║           [####]           ║
+    ║       ____[####]____       ║
+    ║      /              \      ║
+    ║     /                \     ║
+    ║     |                |     ║
+    ║     | ≈≈≈     ≈≈   ≈ |     ║
+    ║     |≈≈≈≈≈    ≈≈≈≈≈≈≈|     ║
+    ║     \≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈/     ║
+    ║      \≈≈≈≈≈≈≈≈≈≈≈≈≈≈/      ║
+    ║       \____________/       ║
+    ║                            ║
+    ╚════════════════════════════╝
+  thumbnail: |
+    ╔════════════════════════════╗
+    ║            $BROWN____            $WHITE║
+    ║           $BROWN[####]           $WHITE║
+    ║       $LIGHT_GRAY____$BROWN[####]$LIGHT_GRAY____       $WHITE║
+    ║      $LIGHT_GRAY/              \      $WHITE║
+    ║     $LIGHT_GRAY/                \     $WHITE║
+    ║     $LIGHT_GRAY|                |     $WHITE║
+    ║     $LIGHT_GRAY| $CYAN≈≈≈     ≈≈   ≈ $LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY|$CYAN≈≈≈≈≈    ≈≈≈≈≈≈≈$LIGHT_GRAY|     $WHITE║
+    ║     $LIGHT_GRAY\$CYAN≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/     $WHITE║
+    ║      $LIGHT_GRAY\$CYAN≈≈≈≈≈≈≈≈≈≈≈≈≈≈$LIGHT_GRAY/      $WHITE║
     ║       $LIGHT_GRAY\____________/       $WHITE║
     ║                            $WHITE║
     ╚════════════════════════════╝
