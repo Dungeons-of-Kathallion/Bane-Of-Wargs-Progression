@@ -38,6 +38,9 @@ Deliver Raw Wood To Jacky Completed:
   actions:
     add attributes:
     - has finished jacky deliver
+    remove item:
+    - Raw Wood
+    - Raw Wood
     gold modification:
       augmentation: $gold_augmentation
 
