@@ -1,3 +1,9 @@
+fade
+GitPython
 colorama
 PyYaml
+yamale
+fsspec
 appdirs
+requests
+rich
