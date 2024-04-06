@@ -140,7 +140,7 @@ Gerud Ancient Dungeon Reward:
 Found Dog Mitchell:
   conversation:
     - label 1:
-      - print(While you walk into the Los Gerudos grand avenue, and admire the sea, visible from a long distance, you hear a noise, comming from behind you. You slowly turn behind. You find a dog; he must have followed you since you've left that little juwelery store. He must have been lost by his dear owners!)
+      - print(While you walk into the Los Gerudos grand avenue, and admire the sea, visible from a long distance, you hear a noise, coming from behind you. You slowly turn behind. You find a dog; he must have followed you since you've left that little juwelery store. He must have been lost by his dear owners!)
       - print(You decide to take a look...)
       - wait(2)
       - "print(You found a golden collar on his neck, with inscribed letters on it. It says: “Mitchell - property of the Coopers; Please return this dog if you find him at the 13 Yasward Drive, Los Gerudos“. The dog looks at you with big eyes, seeming like he wants you to take him back to its owners.\n)"
